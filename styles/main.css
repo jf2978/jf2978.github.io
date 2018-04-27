@@ -1356,6 +1356,10 @@
   background-color: #4875B4;
 }
 
+#github:hover{
+  background-color: #333;
+}
+
 .btn:hover,
 .navbar .navbar-nav > a.btn:hover {
   -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
@@ -3140,11 +3144,11 @@ body {
   display: inline-flex;
 }
 
-.btn-twitter {
+.btn-github {
   color: #55acee;
 }
 
-.btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active {
+.btn-github:hover, .btn-github:focus, .btn-github:active {
   color: #3ea1ec;
 }
 
@@ -7101,7 +7105,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   height: 180px;
   width: 180px;
