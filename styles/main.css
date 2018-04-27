@@ -1524,7 +1524,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #378C3F;
+  background-color: #9370DB;
   color: #FFFFFF;
 }
 
@@ -1532,7 +1532,7 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;
+  background-color: #8A2BE2;
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -3411,7 +3411,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;
+  background-color: #9370DB !important;
 }
 
 .bg-info {
@@ -7064,7 +7064,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header .btn {
-  width: 140px;
+
 }
 
 /* Profile Image Style */
@@ -7107,8 +7107,8 @@ Created using IcoMoon - icomoon.io
   content: "";
   border: 15px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 220px;
+  width: 220px;
   position: absolute;
   left: 0;
   -webkit-animation: pulsate 1.6s ease-out;
@@ -7122,8 +7122,8 @@ Created using IcoMoon - icomoon.io
 .cc-profile-image img {
   position: relative;
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 220px;
+  width: 220px;
   padding: 0;
   margin: 0;
   border: 15px solid transparent;
