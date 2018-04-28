@@ -1327,6 +1327,11 @@
   color: #FFFFFF;
 }
 
+.btn,
+.navbar .navbar-nav > #angellist:hover{
+  ba
+}
+
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover,
 .show > .btn.dropdown-toggle,
@@ -1358,6 +1363,12 @@
 
 #github:hover{
   background-color: #333;
+}
+
+#angellist:hover{
+  background-color: #fff;
+  color: #333;
+
 }
 
 .btn:hover,
@@ -1524,7 +1535,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #9370DB;
+  background-color: #888;
   color: #FFFFFF;
 }
 
@@ -1532,15 +1543,16 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #8A2BE2;
-  color: #FFFFFF;
+   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .btn-primary:hover {
-  -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
-          box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+  background-color: #9370DB;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(60, 60, 60, 0.67);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(60, 60, 60, 0.67);
+  box-shadow: 0px 0px 30px 0px rgba(60, 60, 60, 0.67);
 }
 
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary:disabled:active, .btn-primary:disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active,
@@ -2928,7 +2940,7 @@ p {
 
 .category {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   color: #9A9A9A;
 }
 
@@ -3111,7 +3123,7 @@ body {
 }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #378C3F;
+  background-color: #444;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
@@ -3411,7 +3423,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #9370DB !important;
+  background-color: rgba(0,0,0,.6) !important;
 }
 
 .bg-info {
@@ -5610,7 +5622,7 @@ Created using IcoMoon - icomoon.io
     right: 0;
     z-index: 1032;
     visibility: visible;
-    background-color: #999;
+    background-color: rgba(0,0,0,.6);
     overflow-y: visible;
     border-top: none;
     text-align: left;
@@ -5621,13 +5633,10 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .sidebar-collapse .navbar-collapse:before {
-    background: #378C3F;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -5710,6 +5719,7 @@ Created using IcoMoon - icomoon.io
     -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
+
   .sidebar-collapse .navbar .navbar-toggler-bar {
     display: block;
     position: relative;
