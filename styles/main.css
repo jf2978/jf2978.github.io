@@ -7074,8 +7074,23 @@ Created using IcoMoon - icomoon.io
   /* Standard syntax */
 }
 
-.page-header .btn {
+#autodesk{
+  -webkit-transition: background-image 2s; /* For Safari 3.1 to 6.0 */
+  transition: background-image 2s;
+}
 
+#autodesk:hover{
+  background-image: url(../images/autodesk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#era:hover{
+  background-image: url(../images/era-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Profile Image Style */
