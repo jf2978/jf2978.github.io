@@ -7074,23 +7074,76 @@ Created using IcoMoon - icomoon.io
   /* Standard syntax */
 }
 
-#autodesk{
-  -webkit-transition: background-image 2s; /* For Safari 3.1 to 6.0 */
-  transition: background-image 2s;
+#autodesk:hover{
+  opacity: .8;
+  background-image: url('../images/autodesk.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
 }
 
-#autodesk:hover{
-  background-image: url(../images/autodesk.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+#autodesk:hover .h5{
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#autodesk:hover .card-body{
+  font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 #era:hover{
-  background-image: url(../images/era-2.png);
-  background-size: contain;
+  opacity: .8;
+  background-image: url('../images/era.png');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; 
+}
+
+#era:hover .h5{
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#era:hover .card-body{
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#btech:hover{
+  color: rgba(255,255,255,.8);
+  background-image: url('../images/btech.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+#btech:hover .h5{
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#btech:hover .card-body{
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#columbia:hover{
+  opacity: .9;
+  background-image: url('../images/columbia.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+#columbia:hover .h5{
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#columbia:hover .card-body{
+  font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 /* Profile Image Style */
