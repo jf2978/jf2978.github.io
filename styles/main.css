@@ -7111,7 +7111,7 @@ Created using IcoMoon - icomoon.io
 }
 
 #btech:hover{
-  color: rgba(255,255,255,.8);
+  opacity: .8;
   background-image: url('../images/btech.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -7129,7 +7129,7 @@ Created using IcoMoon - icomoon.io
 }
 
 #columbia:hover{
-  opacity: .9;
+  opacity: .8;
   background-image: url('../images/columbia.png');
   background-size: cover;
   background-repeat: no-repeat;
