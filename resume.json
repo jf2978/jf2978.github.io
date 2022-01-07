@@ -1,0 +1,221 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Jeffrey Fabian",
+        "label": "Software Engineer",
+        "image": "https://drive.google.com/file/d/1Y6JK-b9DcIFPJH8TwZOv2YSu92wSFc64/view?usp=sharing",
+        "email": "jeffrey.fabian61@gmail.com",
+        "url": "https://github.com/jf2978",
+        "summary": "I'm a Full Stack Software Engineer with a focus on backend development and side project enthusiast. Alongside my professional experience, I've built a web app for aspiring product managers, am writing a personal finance newsletter for first-generation college students, and exploring web3 tech.",
+        "location": {
+            "countryCode": "US",
+            "address": "United States"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "second_jeff",
+                "url": "https://twitter.com/second_jeff"
+            },
+            {
+                "network": "GitHub",
+                "username": "jf2978",
+                "url": "https://github.com/jf2978"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "jf2978",
+                "url": "https://www.linkedin.com/in/jf2978/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Intuit",
+            "website": "https://intuit.com",
+            "position": "Senior Software Engineer",
+            "highlights": [
+                "Hired as part of acquisition of Mailchimp"
+            ],
+            "startDate": "2021-11-08"
+        },
+        {
+            "company": "Mailchimp",
+            "website": "https://mailchimp.com/andco/",
+            "position": "Software Engineer III",
+            "startDate": "2021-04-30",
+            "endDate": "2021-11-08",
+            "highlights": [
+                "Lead squad of engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
+                "Designed and implemented a new pattern for accessing partner data across over 250+ code touchpoints",
+                "Served in an on-call rotation to provide after-hours support and incident management for our cloud-enabled Go-gRPC service"
+            ]
+        },
+        {
+            "company": "Mailchimp",
+            "website": "https://mailchimp.com/andco/",
+            "position": "Software Engineer II",
+            "startDate": "2019-06-30",
+            "endDate": "2021-04-30",
+            "summary": "",
+            "highlights": [
+                "Helped launch & maintain the Mailchimp & Co product - a partner program for over 20,000 agencies that help other small businesses use Mailchimp",
+                "Built a Learning Management System (LMS) that asynchronously ingests and updates partner data using Google Pub/Sub and Spanner",
+                "Automated the terms and conditions (T&Cs) acceptance flow working cross-functionally with product, engineering, design, legal and marketing"
+            ]
+        },
+        {
+            "company": "Autodesk",
+            "website": "https://www.autodesk.com/",
+            "position": "Software Engineering Intern",
+            "startDate": "2018-06-30",
+            "endDate": "2018-09-30",
+            "highlights": [
+                "Researched effort for integrating AWS Fargate - Amazon's serverless compute engine - into the team's suite of deployment tools",
+                "Implemented infrastructure as code to enable 25+ engineering teams to deploy to AWS Fargate using Terraform"
+            ]
+        },
+        {
+            "company": "Convessa",
+            "website": "https://www.crunchbase.com/organization/convessa",
+            "position": "Software Engineering Intern",
+            "startDate": "2017-06-30",
+            "endDate": "2017-08-31",
+            "highlights": [
+                "Cut payment processing costs by 25% for the Mastermind Assistant Alexa skill by implementing an Amazon Pay Servlet",
+                "Implemented a script that creates and updates 1000+ of email marketing contacts deployed via a cron job"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Code Nation (formerly ScriptEd)",
+            "position": "Teacher",
+            "startDate": "2018-09-30",
+            "endDate": "2019-02-28",
+            "summary": "Code Nation equips students in under-resourced high schools with the skills, experiences, and connections that together create access to careers in technology.",
+            "highlights": [
+                "Taught HTML/CSS/JS to high school students at Wadleigh Secondary School For The Performing & Visual Arts"
+            ],
+            "url": "https://www.linkedin.com/company/its-code-nation/"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Columbia University in the City of New York",
+            "area": "Computer Science and Psychology",
+            "studyType": "Bachelor",
+            "startDate": "2015-12-31",
+            "endDate": "2019-12-31",
+            "score": "",
+            "courses": [
+                "Analysis of Algorithms",
+                "The Self: A Cognitive Exploration",
+                "Interpersonal Cognition",
+                "User Interface Design",
+                "Cryptography and Computer Security"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Palantir Future Scholarship",
+            "date": "2018-08-31",
+            "awarder": "Palantir Technologies",
+            "summary": "The Palantir Future Scholarship celebrates and supports students from underrepresented racial/ethnic groups in STEM who are beginning careers in technology. I was one of 10 scholarship finalists chosen and invited to visit Palantir's Washington, D.C. office for a full-day, all-expenses paid, developmental workshop."
+        },
+        {
+            "title": "QuestBridge National College Match",
+            "date": "2014-12-31",
+            "awarder": "QuestBridge",
+            "summary": "The QuestBridge National College Match is a college and scholarship that helps outstanding low-income high school seniors gain admission and full four-year scholarships to the nation's most selective colleges. I was one of 27 students matched to attend Columbia University."
+        }
+    ],
+    "certificates": [],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Backend",
+            "level": "Master",
+            "keywords": [
+                "Go",
+                "Java",
+                "PHP"
+            ]
+        },
+        {
+            "name": "Web",
+            "level": "Advanced",
+            "keywords": [
+                "JavaScript / JSX",
+                "Gatsby",
+                "GraphQL",
+                "React",
+                "Material UI"
+            ]
+        },
+        {
+            "name": "Blockchain",
+            "level": "Intermediate",
+            "keywords": [
+                "Ethereum Virtual Machine (EVM)",
+                "DeFi",
+                "Non-Custodial Wallets",
+                "Metamask"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native Speaker"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Native Speaker"
+        }
+    ],
+    "interests": [],
+    "references": [
+        {
+            "name": "Nik Bhattacharya, CEO of Convessa",
+            "reference": "Jeff is an outstanding individual, a diligent developer and has the tenacity to get the job done. During his internship at ERA, Jeff worked for our company Convessa. My co founder and I assigned Jeff 3 tasks to be done over the course of 6 weeks: tasks that required researching APIs, exploring various options for development approaches, explaining the approaches and their pros and cons, and then finally developing/implementing the chosen solution. Jeff excelled at all 3 tasks and not only that, was very methodical on how he worked through each step of each individual task. We will put his code into production in a few weeks. The code Jeff worked on will not only save us money (he worked on integrating a Payment Processor into our checkout flow), but will also allow us to drive further engagement with our products (he worked on integrating an email gateway with custom triggers to send individualized emails and custom reports on Google Analytics). I wish Jeff the very best."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Second Generation",
+            "url": "https://www.secondgen.co/",
+            "startDate": "2020-09-30",
+            "summary": "Substack newsletter that aims to capture my evolving thoughts on wealth with first-generation college graduates in mind.",
+            "highlights": [
+                "Outlined how money flows through our financial system: https://www.secondgen.co/p/money-flows"
+            ]
+        },
+        {
+            "name": "APM Map",
+            "url": "https://www.apmmap.co/",
+            "startDate": "2020-06-30",
+            "summary": "A mentorship platform that provides guidance and resources for students and early-career professionals looking to break into product management.",
+            "highlights": [
+                "Launched on Product Hunt: https://www.producthunt.com/posts/apm-map"
+            ]
+        },
+        {
+            "name": "A Chain of Blocks",
+            "url": "https://github.com/jf2978/java-blockchain/",
+            "startDate": "2018-07-01",
+            "endDate": "2018-08-01",
+            "summary": "An oversimplified \"blockchain\" that simulates proof-of-work to mine arbitrary transaction data",
+            "highlights": [
+                "Implmented a Merkle Tree from scratch as referenced in the Bitcoin whitepaper"
+            ]
+        }
+    ],
+    "meta": {
+        "version": "v1.0.0",
+        "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+        "theme": "stackoverflow",
+        "lastModified": "2021-11-09T00:00:00"
+    }
+}
