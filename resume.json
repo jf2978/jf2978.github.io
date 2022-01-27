@@ -119,6 +119,12 @@
     ],
     "awards": [
         {
+            "title": "KERNEL Block 4 Fellowship",
+            "date": "2021-09-01",
+            "awarder": "Gitcoin",
+            "summary": "KERNEL is an 8-week, invite-only program for top tech talent looking to build relationships, products, and companies in blockchain and Web 3."
+        },
+        {
             "title": "Palantir Future Scholarship",
             "date": "2018-08-31",
             "awarder": "Palantir Technologies",
@@ -135,33 +141,24 @@
     "publications": [],
     "skills": [
         {
-            "name": "Backend",
+            "name": "Backend Services",
             "level": "Master",
             "keywords": [
                 "Go",
-                "Java",
-                "PHP"
+                "Google Cloud Platform",
+                "gRPC",
+                "protobuf"
             ]
         },
         {
-            "name": "Web",
+            "name": "Web Development",
             "level": "Advanced",
             "keywords": [
-                "JavaScript / JSX",
-                "Gatsby",
-                "GraphQL",
+                "PHP",
+                "JavaScript",
                 "React",
-                "Material UI"
-            ]
-        },
-        {
-            "name": "Blockchain",
-            "level": "Intermediate",
-            "keywords": [
-                "Ethereum Virtual Machine (EVM)",
-                "DeFi",
-                "Non-Custodial Wallets",
-                "Metamask"
+                "Gatsby",
+                "GraphQL"
             ]
         }
     ],
@@ -178,11 +175,22 @@
     "interests": [],
     "references": [
         {
+            "name": "Perri Lapidus, Senior Engineering Manager at Mailchimp"
+        },
+        {
             "name": "Nik Bhattacharya, CEO of Convessa",
             "reference": "Jeff is an outstanding individual, a diligent developer and has the tenacity to get the job done. During his internship at ERA, Jeff worked for our company Convessa. My co founder and I assigned Jeff 3 tasks to be done over the course of 6 weeks: tasks that required researching APIs, exploring various options for development approaches, explaining the approaches and their pros and cons, and then finally developing/implementing the chosen solution. Jeff excelled at all 3 tasks and not only that, was very methodical on how he worked through each step of each individual task. We will put his code into production in a few weeks. The code Jeff worked on will not only save us money (he worked on integrating a Payment Processor into our checkout flow), but will also allow us to drive further engagement with our products (he worked on integrating an email gateway with custom triggers to send individualized emails and custom reports on Google Analytics). I wish Jeff the very best."
         }
     ],
     "projects": [
+        {
+            "name": "Portal",
+            "summary": "A digital display for NFTs tied to a non-custodial wallet",
+            "highlights": [
+                "Hand-built the display from scratch using a raspberry pi, lightweight IPS monitor, and wooden frame borders",
+                "Leveraged TokenCast, an open-source platform for connecting verifiable NFTs to a display"
+            ]
+        },
         {
             "name": "Second Generation",
             "url": "https://www.secondgen.co/",
