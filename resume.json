@@ -34,34 +34,20 @@
             "company": "Intuit",
             "website": "https://intuit.com",
             "position": "Senior Software Engineer",
-            "highlights": [
-                "Hired as part of acquisition of Mailchimp"
-            ],
-            "startDate": "2021-11-08"
+            "startDate": "2021-11-08",
+            "endDate": "2021-02-04"
         },
         {
             "company": "Mailchimp",
             "website": "https://mailchimp.com/andco/",
-            "position": "Software Engineer III",
-            "startDate": "2021-04-30",
+            "position": "Software Engineer",
+            "startDate": "2019-06-30",
             "endDate": "2021-11-08",
             "highlights": [
                 "Lead squad of engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
-                "Designed and implemented a new pattern for accessing partner data across over 250+ code touchpoints",
+                "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner",
+                "Automated partner program terms and conditions - collaborating cross-functionally with product, engineering, design, legal and marketing",
                 "Served in an on-call rotation to provide after-hours support and incident management for our cloud-enabled Go-gRPC service"
-            ]
-        },
-        {
-            "company": "Mailchimp",
-            "website": "https://mailchimp.com/andco/",
-            "position": "Software Engineer II",
-            "startDate": "2019-06-30",
-            "endDate": "2021-04-30",
-            "summary": "",
-            "highlights": [
-                "Helped launch & maintain the Mailchimp & Co product - a partner program for over 20,000 agencies that help other small businesses use Mailchimp",
-                "Built a Learning Management System (LMS) that asynchronously ingests and updates partner data using Google Pub/Sub and Spanner",
-                "Automated the terms and conditions (T&Cs) acceptance flow working cross-functionally with product, engineering, design, legal and marketing"
             ]
         },
         {
@@ -173,22 +159,16 @@
         }
     ],
     "interests": [],
-    "references": [
-        {
-            "name": "Perri Lapidus, Senior Engineering Manager at Mailchimp"
-        },
-        {
-            "name": "Nik Bhattacharya, CEO of Convessa",
-            "reference": "Jeff is an outstanding individual, a diligent developer and has the tenacity to get the job done. During his internship at ERA, Jeff worked for our company Convessa. My co founder and I assigned Jeff 3 tasks to be done over the course of 6 weeks: tasks that required researching APIs, exploring various options for development approaches, explaining the approaches and their pros and cons, and then finally developing/implementing the chosen solution. Jeff excelled at all 3 tasks and not only that, was very methodical on how he worked through each step of each individual task. We will put his code into production in a few weeks. The code Jeff worked on will not only save us money (he worked on integrating a Payment Processor into our checkout flow), but will also allow us to drive further engagement with our products (he worked on integrating an email gateway with custom triggers to send individualized emails and custom reports on Google Analytics). I wish Jeff the very best."
-        }
-    ],
+    "references": [],
     "projects": [
         {
             "name": "Portal",
+            "url": "https://bit.ly/3r4u69d",
+            "startDate": "2021-09-01",
+            "endDate": "2021-11-30",
             "summary": "A digital display for NFTs tied to a non-custodial wallet",
             "highlights": [
-                "Hand-built the display from scratch using a raspberry pi, lightweight IPS monitor, and wooden frame borders",
-                "Leveraged TokenCast, an open-source platform for connecting verifiable NFTs to a display"
+                "Hand-built the display from scratch using a raspberry pi, lightweight IPS monitor, and wooden frame borders"
             ]
         },
         {
