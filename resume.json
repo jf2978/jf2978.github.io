@@ -6,7 +6,7 @@
         "image": "https://drive.google.com/file/d/1Y6JK-b9DcIFPJH8TwZOv2YSu92wSFc64/view?usp=sharing",
         "email": "jeffrey.fabian61@gmail.com",
         "url": "https://github.com/jf2978",
-        "summary": "I'm a Full Stack Software Engineer with a focus on backend development and side project enthusiast. Alongside my professional experience, I've built a web app for aspiring product managers, am writing a personal finance newsletter for first-generation college students, and exploring web3 tech.",
+        "summary": "I'm a Full Stack Software Engineer, with a focus on backend development, and a side project enthusiast. Alongside my professional experience, I've built a web app for aspiring product managers, write a personal finance newsletter for first-generation college students, and run an Ethereum validator.",
         "location": {
             "countryCode": "US",
             "address": "United States"
@@ -44,7 +44,7 @@
             "startDate": "2019-06-30",
             "endDate": "2021-11-08",
             "highlights": [
-                "Lead squad of engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
+                "Led a squad of engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
                 "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner",
                 "Automated partner program terms and conditions - collaborating cross-functionally with product, engineering, design, legal and marketing",
                 "Served in an on-call rotation to provide after-hours support and incident management for our cloud-enabled Go-gRPC service"
@@ -57,7 +57,6 @@
             "startDate": "2018-06-30",
             "endDate": "2018-09-30",
             "highlights": [
-                "Researched effort for integrating AWS Fargate - Amazon's serverless compute engine - into the team's suite of deployment tools",
                 "Implemented infrastructure as code to enable 25+ engineering teams to deploy to AWS Fargate using Terraform"
             ]
         },
@@ -75,7 +74,7 @@
     ],
     "volunteer": [
         {
-            "organization": "Code Nation (formerly ScriptEd)",
+            "organization": "Code Nation",
             "position": "Teacher",
             "startDate": "2018-09-30",
             "endDate": "2019-02-28",
@@ -90,10 +89,9 @@
         {
             "institution": "Columbia University in the City of New York",
             "area": "Computer Science and Psychology",
-            "studyType": "Bachelor",
+            "studyType": "Bachelors",
             "startDate": "2015-12-31",
             "endDate": "2019-12-31",
-            "score": "",
             "courses": [
                 "Analysis of Algorithms",
                 "The Self: A Cognitive Exploration",
@@ -114,7 +112,7 @@
             "title": "Palantir Future Scholarship",
             "date": "2018-08-31",
             "awarder": "Palantir Technologies",
-            "summary": "The Palantir Future Scholarship celebrates and supports students from underrepresented racial/ethnic groups in STEM who are beginning careers in technology. I was one of 10 scholarship finalists chosen and invited to visit Palantir's Washington, D.C. office for a full-day, all-expenses paid, developmental workshop."
+            "summary": "The Palantir Future Scholarship celebrates and supports students from underrepresented racial/ethnic groups in STEM who are beginning careers in technology. I was one of 10 scholarship recipients and was invited to visit Palantir's Washington, D.C. office for a full-day, all-expenses paid, developmental workshop."
         },
         {
             "title": "QuestBridge National College Match",
@@ -162,17 +160,20 @@
     "references": [],
     "projects": [
         {
-            "name": "Portal",
-            "url": "https://bit.ly/3r4u69d",
-            "startDate": "2021-09-01",
-            "endDate": "2021-11-30",
-            "summary": "A digital display for NFTs tied to a non-custodial wallet",
-            "highlights": [
-                "Hand-built the display from scratch using a raspberry pi, lightweight IPS monitor, and wooden frame borders"
-            ]
+            "name": "Rocket Pool",
+            "keywords": [
+                "Node Operator"
+            ],
+            "url": "https://prater.beaconcha.in/validator/271308",
+            "startDate": "2021-12-01",
+            "summary": "I'm an Ethereum validator (via Rocket Pool) responsible for storing data, processing transactions, and adding new blocks to the blockchain"
         },
         {
             "name": "Second Generation",
+            "keywords": [
+                "Founder",
+                "Writer"
+            ],
             "url": "https://www.secondgen.co/",
             "startDate": "2020-09-30",
             "summary": "Substack newsletter that aims to capture my evolving thoughts on wealth with first-generation college graduates in mind.",
@@ -182,21 +183,15 @@
         },
         {
             "name": "APM Map",
+            "keywords": [
+                "Co-Founder",
+                "CTO"
+            ],
             "url": "https://www.apmmap.co/",
             "startDate": "2020-06-30",
             "summary": "A mentorship platform that provides guidance and resources for students and early-career professionals looking to break into product management.",
             "highlights": [
                 "Launched on Product Hunt: https://www.producthunt.com/posts/apm-map"
-            ]
-        },
-        {
-            "name": "A Chain of Blocks",
-            "url": "https://github.com/jf2978/java-blockchain/",
-            "startDate": "2018-07-01",
-            "endDate": "2018-08-01",
-            "summary": "An oversimplified \"blockchain\" that simulates proof-of-work to mine arbitrary transaction data",
-            "highlights": [
-                "Implmented a Merkle Tree from scratch as referenced in the Bitcoin whitepaper"
             ]
         }
     ],
