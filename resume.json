@@ -29,6 +29,16 @@
             }
         ]
     },
+    "education": [
+        {
+            "institution": "Columbia University in the City of New York",
+            "url": "https://columbia.edu",
+            "area": "Computer Science and Psychology",
+            "studyType": "Bachelors",
+            "startDate": "2015-12-31",
+            "endDate": "2019-12-31"
+        }
+    ],
     "work": [
         {
             "company": "Intuit",
@@ -83,22 +93,6 @@
                 "Taught HTML/CSS/JS to high school students at Wadleigh Secondary School For The Performing & Visual Arts"
             ],
             "url": "https://www.linkedin.com/company/its-code-nation/"
-        }
-    ],
-    "education": [
-        {
-            "institution": "Columbia University in the City of New York",
-            "area": "Computer Science and Psychology",
-            "studyType": "Bachelors",
-            "startDate": "2015-12-31",
-            "endDate": "2019-12-31",
-            "courses": [
-                "Analysis of Algorithms",
-                "The Self: A Cognitive Exploration",
-                "Interpersonal Cognition",
-                "User Interface Design",
-                "Cryptography and Computer Security"
-            ]
         }
     ],
     "awards": [
