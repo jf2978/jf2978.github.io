@@ -13,8 +13,8 @@ These are mostly for my future self as I'll almost definitely forget all of the 
 
 ```bash
 # install dependencies ...
-sudo apt-get install xvfb
-sudo apt-get install xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic
+sudo apt-get install xvfb # only for Ubuntu (WSL)
+sudo apt-get install xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic # only for Ubuntu (WSL)
 sudo apt-get install wkhtmltopdf
 
 npm install resume-cli
@@ -26,6 +26,7 @@ npx resume export --theme=stackoverflow resume.html
 npx resume export --resume=short.resume.json --theme=stackoverflow short-resume.html
 
 # export short.resume.json as pdf (since I'll usually want it on a single page if it's a pdf)
-xvfb-run wkhtmltopdf ./short-resume.html short-resume.pdf
+xvfb-run wkhtmltopdf ./short-resume.html short-resume.pdf # Ubuntu (WSL)
+wkhtmltopdf ./short-resume.html short-resume.pdf # MacOS
 
 ```

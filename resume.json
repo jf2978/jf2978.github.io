@@ -6,7 +6,7 @@
         "image": "https://drive.google.com/file/d/1Y6JK-b9DcIFPJH8TwZOv2YSu92wSFc64/view?usp=sharing",
         "email": "jeffrey.fabian61@gmail.com",
         "url": "https://github.com/jf2978",
-        "summary": "I'm a Full Stack Software Engineer, with a focus on backend development, and a side project enthusiast. Alongside my professional experience, I've built a web app for aspiring product managers, write a personal finance newsletter for first-generation college students, and run an Ethereum validator.",
+        "summary": "I'm a full-stack software engineer, with a focus on backend development, and a side project enthusiast. Alongside my professional experience, I've built a web app for aspiring product managers, write a personal finance newsletter for first-generation college students, and run an Ethereum validator.",
         "location": {
             "countryCode": "US",
             "address": "United States"
@@ -45,7 +45,10 @@
             "website": "https://intuit.com",
             "position": "Senior Software Engineer",
             "startDate": "2021-11-08",
-            "endDate": "2021-02-04"
+            "endDate": "2021-02-04",
+            "highlights": [
+                "Intuit's Small Business & Self-Employed Group acquired Mailchimp"
+            ]
         },
         {
             "company": "Mailchimp",
@@ -78,7 +81,7 @@
             "endDate": "2017-08-31",
             "highlights": [
                 "Cut payment processing costs by 25% for the Mastermind Assistant Alexa skill by implementing an Amazon Pay Servlet",
-                "Implemented a script that creates and updates 1000+ of email marketing contacts deployed via a cron job"
+                "Implemented a cron job that creates and updates 1000+ of email marketing contacts deployed"
             ]
         }
     ],
@@ -154,26 +157,26 @@
     "references": [],
     "projects": [
         {
-            "name": "Rocket Pool",
-            "keywords": [
-                "Node Operator"
-            ],
-            "url": "https://prater.beaconcha.in/validator/271308",
-            "startDate": "2021-12-01",
-            "summary": "I'm an Ethereum validator (via Rocket Pool) responsible for storing data, processing transactions, and adding new blocks to the blockchain"
-        },
-        {
-            "name": "Second Generation",
+            "name": "Second Generation Group, LLC",
             "keywords": [
                 "Founder",
                 "Writer"
             ],
             "url": "https://www.secondgen.co/",
             "startDate": "2020-09-30",
-            "summary": "Substack newsletter that aims to capture my evolving thoughts on wealth with first-generation college graduates in mind.",
+            "summary": "Self-run organization that aims to capture my evolving thoughts on wealth for first-generation college graduates",
             "highlights": [
                 "Outlined how money flows through our financial system: https://www.secondgen.co/p/money-flows"
             ]
+        },
+        {
+            "name": "Rocket Pool",
+            "keywords": [
+                "Node Operator"
+            ],
+            "url": "https://beaconcha.in/validators",
+            "startDate": "2021-12-01",
+            "summary": "I'm an Ethereum validator (via Rocket Pool) responsible for storing data, processing transactions, and adding new blocks to the blockchain"
         },
         {
             "name": "APM Map",
