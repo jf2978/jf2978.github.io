@@ -3,13 +3,12 @@
     "basics": {
         "name": "Jeffrey Fabian",
         "label": "Software Engineer",
-        "image": "https://drive.google.com/file/d/1Y6JK-b9DcIFPJH8TwZOv2YSu92wSFc64/view?usp=sharing",
         "email": "jeffrey.fabian61@gmail.com",
         "url": "https://github.com/jf2978",
-        "summary": "I'm a full-stack software engineer, with a focus on backend development, and a side project enthusiast. Alongside my professional experience, I've built a web app for aspiring product managers, write a personal finance newsletter for first-generation college students, and run an Ethereum validator.",
+        "summary": "I'm a fullstack software engineer, with a slight emphasis on backend development and API design. I'm currently focused on building in web3, but occasionally write about personal finance for first-generation college students and maintain an Ethereum validator at home.",
         "location": {
             "countryCode": "US",
-            "address": "United States"
+            "address": "New York"
         },
         "profiles": [
             {
@@ -41,11 +40,22 @@
     ],
     "work": [
         {
+            "company": "Bonfire",
+            "website": "https://bonfire.xyz",
+            "position": "Founding Engineer",
+            "startDate": "2022-03-13",
+            "highlights": [
+                "Introduced creator fan onboarding and 'global' user accounts — combining passwordless email signup and wallet authentication (self-custodial or provisioned)",
+                "Created a job server: a standalone Express server that leverages BullMQ (redis-backed, NodeJS-based queue lib) and tRPC to kickoff, process and schedule long-running tasks.",
+                "Implemented creator subscription notifications end-to-end: from website builder subscribe button to scheduling email sends when a creator drops an NFT, releases an ERC-20 Airdrop, etc."
+            ]
+        },
+        {
             "company": "Intuit",
             "website": "https://intuit.com",
             "position": "Senior Software Engineer",
             "startDate": "2021-11-08",
-            "endDate": "2021-02-04",
+            "endDate": "2022-02-04",
             "highlights": [
                 "Intuit's Small Business & Self-Employed Group acquired Mailchimp"
             ]
@@ -60,17 +70,17 @@
                 "Led a squad of engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
                 "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner",
                 "Automated partner program terms and conditions - collaborating cross-functionally with product, engineering, design, legal and marketing",
-                "Served in an on-call rotation to provide after-hours support and incident management for our cloud-enabled Go-gRPC service"
+                "Provided on-call support and incident management for our cloud-enabled Go-gRPC service"
             ]
         },
         {
             "company": "Autodesk",
             "website": "https://www.autodesk.com/",
-            "position": "Software Engineering Intern",
+            "position": "Software Engineering Intern (CloudOS)",
             "startDate": "2018-06-30",
             "endDate": "2018-09-30",
             "highlights": [
-                "Implemented infrastructure as code to enable 25+ engineering teams to deploy to AWS Fargate using Terraform"
+                "Implemented a series of Terraform modules to enable 25+ engineering teams to seamlessly deploy their services to AWS Fargate"
             ]
         },
         {
@@ -122,24 +132,24 @@
     "publications": [],
     "skills": [
         {
-            "name": "Backend Services",
-            "level": "Master",
-            "keywords": [
-                "Go",
-                "Google Cloud Platform",
-                "gRPC",
-                "protobuf"
-            ]
-        },
-        {
             "name": "Web Development",
             "level": "Advanced",
             "keywords": [
-                "PHP",
-                "JavaScript",
+                "TypeScript",
                 "React",
-                "Gatsby",
-                "GraphQL"
+                "GraphQL",
+                "tRPC"
+            ]
+        },
+        {
+            "name": "Backend Services",
+            "level": "Advanced",
+            "keywords": [
+                "Go",
+                "PHP",
+                "GCP / AWS",
+                "gRPC",
+                "protobuf"
             ]
         }
     ],
@@ -164,19 +174,20 @@
             ],
             "url": "https://www.secondgen.co/",
             "startDate": "2020-09-30",
-            "summary": "Self-run organization that aims to capture my evolving thoughts on wealth for first-generation college graduates",
+            "summary": "My personal content outlet that aims to capture my evolving thoughts on wealth for first-generation college graduates",
             "highlights": [
-                "Outlined how money flows through our financial system: https://www.secondgen.co/p/money-flows"
+                "Visualized how money 'flows' through our financial system: https://www.secondgen.co/p/money-flows"
             ]
         },
         {
             "name": "Rocket Pool",
             "keywords": [
+                "Ethereum",
                 "Node Operator"
             ],
-            "url": "https://beaconcha.in/validators",
+            "url": "https://docs.rocketpool.net/guides/node/responsibilities.html",
             "startDate": "2021-12-01",
-            "summary": "I'm an Ethereum validator (via Rocket Pool) responsible for storing data, processing transactions, and adding new blocks to the blockchain"
+            "summary": "Rocket Pool is a decentralized Ethereum staking protocol by which I participate in as a Node Operator — responsible for attesting and proposing blocks on the Beacon Chain."
         },
         {
             "name": "APM Map",
@@ -184,9 +195,10 @@
                 "Co-Founder",
                 "CTO"
             ],
-            "url": "https://www.apmmap.co/",
+            "url": "https://apmmap.co/",
             "startDate": "2020-06-30",
-            "summary": "A mentorship platform that provides guidance and resources for students and early-career professionals looking to break into product management.",
+            "endDate": "2020-12-31",
+            "summary": "A resource directory for students and early-career professionals looking to break into product management.",
             "highlights": [
                 "Launched on Product Hunt: https://www.producthunt.com/posts/apm-map"
             ]

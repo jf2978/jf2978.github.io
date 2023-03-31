@@ -783,7 +783,7 @@ ul.courses li:hover {
     		</div>
     		
     		<span class="location">
-    			<span class="address">United States,</span> 
+    			<span class="address">New York,</span> 
     			<span class="countryCode">US</span> 
     		</span>
     		
@@ -825,7 +825,7 @@ ul.courses li:hover {
     
     	<section class="section main-summary">
     		<section>
-    			<div><p>I'm a full-stack software engineer, with a focus on backend development, and a side project enthusiast. Alongside my professional experience, I've built a web app for aspiring product managers, write a personal finance newsletter for first-generation college students, and run an Ethereum validator.</p></div>
+    			<div><p>I'm a fullstack software engineer, with a slight emphasis on backend development and API design. I'm currently focused on building in web3, but occasionally write about personal finance for first-generation college students and maintain an Ethereum validator at home.</p></div>
     		</section>
     	</section>
     
@@ -836,22 +836,6 @@ ul.courses li:hover {
     	<section id="skills">
     		<div class="item">
     			<h3 class="name">
-    				Backend Services
-    			</h3>
-    			 
-    			<div class="level master">
-    				<em>Master</em>
-    				<div class="bar"></div>
-    			</div>
-    			<ul class="keywords">
-    				<li>Go</li>
-    				<li>Google Cloud Platform</li>
-    				<li>gRPC</li>
-    				<li>protobuf</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
     				Web Development
     			</h3>
     			 
@@ -860,21 +844,59 @@ ul.courses li:hover {
     				<div class="bar"></div>
     			</div>
     			<ul class="keywords">
-    				<li>PHP</li>
-    				<li>JavaScript</li>
+    				<li>TypeScript</li>
     				<li>React</li>
-    				<li>Gatsby</li>
     				<li>GraphQL</li>
+    				<li>tRPC</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Backend Services
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Go</li>
+    				<li>PHP</li>
+    				<li>GCP / AWS</li>
+    				<li>gRPC</li>
+    				<li>protobuf</li>
     			</ul>
     		</div>
     	</section>
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
+        <h2 class='section-title'>Work Experience <span class="item-count">(5)</span></h2>
       </header>
     
       <section id="work">
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Founding Engineer</div>
+    				<div class="company">Bonfire</div>
+    				<div class="date">
+    				  <span class="startDate">March 2022</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://bonfire.xyz">https://bonfire.xyz</a>
+        	</span>      	<div class="item" id="work-item">
+            <ul class="highlights">
+                <li><p>Introduced creator fan onboarding and 'global' user accounts — combining passwordless email signup and wallet authentication (self-custodial or provisioned)</p></li>
+                <li><p>Created a job server: a standalone Express server that leverages BullMQ (redis-backed, NodeJS-based queue lib) and tRPC to kickoff, process and schedule long-running tasks.</p></li>
+                <li><p>Implemented creator subscription notifications end-to-end: from website builder subscribe button to scheduling email sends when a creator drops an NFT, releases an ERC-20 Airdrop, etc.</p></li>
+            </ul>
+        	</div>
+        </section>
         <section class="work-item">
     
     
@@ -883,7 +905,7 @@ ul.courses li:hover {
     				<div class="company">Intuit</div>
     				<div class="date">
     				  <span class="startDate">November 2021</span> 
-    					<span class="endDate">- February 2021</span> 
+    					<span class="endDate">- February 2022</span> 
     				</div>
     			</header>
     			
@@ -914,7 +936,7 @@ ul.courses li:hover {
                 <li><p>Led a squad of engineers to build a partner referral system that has generated over $250,000 in payouts since its inception</p></li>
                 <li><p>Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner</p></li>
                 <li><p>Automated partner program terms and conditions - collaborating cross-functionally with product, engineering, design, legal and marketing</p></li>
-                <li><p>Served in an on-call rotation to provide after-hours support and incident management for our cloud-enabled Go-gRPC service</p></li>
+                <li><p>Provided on-call support and incident management for our cloud-enabled Go-gRPC service</p></li>
             </ul>
         	</div>
         </section>
@@ -922,7 +944,7 @@ ul.courses li:hover {
     
     
     			<header>
-    				<div class="position">Software Engineering Intern</div>
+    				<div class="position">Software Engineering Intern (CloudOS)</div>
     				<div class="company">Autodesk</div>
     				<div class="date">
     				  <span class="startDate">June 2018</span> 
@@ -934,7 +956,7 @@ ul.courses li:hover {
         		<a target="_blank" href="https://www.autodesk.com/">https://www.autodesk.com/</a>
         	</span>      	<div class="item" id="work-item">
             <ul class="highlights">
-                <li><p>Implemented infrastructure as code to enable 25+ engineering teams to deploy to AWS Fargate using Terraform</p></li>
+                <li><p>Implemented a series of Terraform modules to enable 25+ engineering teams to seamlessly deploy their services to AWS Fargate</p></li>
             </ul>
         	</div>
         </section>
@@ -986,10 +1008,10 @@ ul.courses li:hover {
           </ul>
           <div class="item">
             <div class="summary">
-              <p><p>Self-run organization that aims to capture my evolving thoughts on wealth for first-generation college graduates</p></p>
+              <p><p>My personal content outlet that aims to capture my evolving thoughts on wealth for first-generation college graduates</p></p>
             </div>
             <ul class="highlights">
-                <li><p>Outlined how money flows through our financial system: https://www.secondgen.co/p/money-flows</p></li>
+                <li><p>Visualized how money 'flows' through our financial system: https://www.secondgen.co/p/money-flows</p></li>
             </ul>
           </div>
         </section>
@@ -1005,14 +1027,15 @@ ul.courses li:hover {
             </div>
           </header>
           <span class="website">
-            <a target="_blank" href="https://beaconcha.in/validators">https://beaconcha.in/validators</a>
+            <a target="_blank" href="https://docs.rocketpool.net/guides/node/responsibilities.html">https://docs.rocketpool.net/guides/node/responsibilities.html</a>
           </span>
           <ul class="keywords">
+              <li>Ethereum</li>
               <li>Node Operator</li>
           </ul>
           <div class="item">
             <div class="summary">
-              <p><p>I'm an Ethereum validator (via Rocket Pool) responsible for storing data, processing transactions, and adding new blocks to the blockchain</p></p>
+              <p><p>Rocket Pool is a decentralized Ethereum staking protocol by which I participate in as a Node Operator — responsible for attesting and proposing blocks on the Beacon Chain.</p></p>
             </div>
           </div>
         </section>
@@ -1024,11 +1047,11 @@ ul.courses li:hover {
             <div class="position">APM Map</div>
             <div class="date">
               <span class="startDate">June 2020</span>
-              <span class="endDate">- Current</span>
+              <span class="endDate">- December 2020</span>
             </div>
           </header>
           <span class="website">
-            <a target="_blank" href="https://www.apmmap.co/">https://www.apmmap.co/</a>
+            <a target="_blank" href="https://apmmap.co/">https://apmmap.co/</a>
           </span>
           <ul class="keywords">
               <li>Co-Founder</li>
@@ -1036,7 +1059,7 @@ ul.courses li:hover {
           </ul>
           <div class="item">
             <div class="summary">
-              <p><p>A mentorship platform that provides guidance and resources for students and early-career professionals looking to break into product management.</p></p>
+              <p><p>A resource directory for students and early-career professionals looking to break into product management.</p></p>
             </div>
             <ul class="highlights">
                 <li><p>Launched on Product Hunt: https://www.producthunt.com/posts/apm-map</p></li>

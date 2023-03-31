@@ -41,6 +41,17 @@
     ],
     "work": [
         {
+            "company": "Bonfire",
+            "website": "https://bonfire.xyz",
+            "position": "Founding Engineer",
+            "startDate": "2022-03-13",
+            "highlights": [
+                "Introduced creator fan onboarding and 'global' user accounts — combining passwordless email signup and wallet authentication (self-custodial or provisioned)",
+                "Created a job server: a standalone Express server that leverages BullMQ (redis-backed, NodeJS-based queue lib) and tRPC to kickoff, process and schedule long-running tasks.",
+                "Implemented creator subscription notifications end-to-end: from website builder subscribe button to scheduling email sends when a creator drops an NFT, releases an ERC-20 Airdrop, etc."
+            ]
+        },
+        {
             "company": "Mailchimp",
             "website": "https://mailchimp.com/andco/",
             "position": "Software Engineer",
@@ -51,16 +62,6 @@
                 "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner",
                 "Automated partner program terms and conditions - collaborating cross-functionally with product, engineering, design, legal and marketing",
                 "Served in an on-call rotation to provide after-hours support and incident management for our cloud-enabled Go-gRPC service"
-            ]
-        },
-        {
-            "company": "Autodesk",
-            "website": "https://www.autodesk.com/",
-            "position": "Software Engineering Intern",
-            "startDate": "2018-06-30",
-            "endDate": "2018-09-30",
-            "highlights": [
-                "Implemented infrastructure as code to enable 25+ engineering teams to deploy to AWS Fargate using Terraform"
             ]
         }
     ],
@@ -130,19 +131,20 @@
             ],
             "url": "https://www.secondgen.co/",
             "startDate": "2020-09-30",
-            "summary": "Self-run organization that aims to capture my evolving thoughts on wealth for first-generation college graduates",
+            "summary": "My personal content outlet that aims to capture my evolving thoughts on wealth for first-generation college graduates",
             "highlights": [
-                "Outlined how money flows through our financial system: https://www.secondgen.co/p/money-flows"
+                "Visualized how money 'flows' through our financial system: https://www.secondgen.co/p/money-flows"
             ]
         },
         {
             "name": "Rocket Pool",
             "keywords": [
+                "Ethereum",
                 "Node Operator"
             ],
-            "url": "https://beaconcha.in/validators",
+            "url": "https://docs.rocketpool.net/guides/node/responsibilities.html",
             "startDate": "2021-12-01",
-            "summary": "I'm an Ethereum validator (via Rocket Pool) responsible for storing data, processing transactions, and adding new blocks to the blockchain"
+            "summary": "Rocket Pool is a decentralized Ethereum staking protocol by which I participate in as a Node Operator — responsible for attesting and proposing blocks on the Beacon Chain."
         }
     ],
     "meta": {
