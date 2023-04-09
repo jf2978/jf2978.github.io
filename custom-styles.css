@@ -1,0 +1,23 @@
+
+/** Note: need to add this back to resume.html if re-generated */
+
+ul {
+    margin-top: .75rem;
+}
+
+#full-name {
+    font-weight: 300 !important;
+}
+
+.quote {
+    margin: 20px 0px 20px 0px;
+    font-style: italic;
+}
+
+.startDate {
+    margin-right: .15em;
+}
+
+.award-item > input {
+    visibility: visible;
+}

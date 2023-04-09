@@ -5,7 +5,7 @@
         "label": "Software Engineer",
         "email": "jeffrey.fabian61@gmail.com",
         "url": "https://github.com/jf2978",
-        "summary": "I'm a fullstack software engineer, with a slight emphasis on backend development and API design. I'm currently focused on building in web3, but occasionally write about personal finance for first-generation college students and maintain an Ethereum validator at home.",
+        "summary": "Fullstack software engineer with 4+ years of experience currently building in web3. When I'm not coding, I write about wealth for first-generation college graduates and run an Ethereum validator at home.",
         "location": {
             "countryCode": "US",
             "address": "New York"
@@ -30,12 +30,11 @@
     },
     "education": [
         {
-            "institution": "Columbia University in the City of New York",
+            "institution": "Columbia University",
             "url": "https://columbia.edu",
             "area": "Computer Science and Psychology",
-            "studyType": "Bachelors",
             "startDate": "2015-12-31",
-            "endDate": "2019-12-31"
+            "endDate": "2019-05-31"
         }
     ],
     "work": [
@@ -45,9 +44,9 @@
             "position": "Founding Engineer",
             "startDate": "2022-03-13",
             "highlights": [
-                "Introduced creator fan onboarding and 'global' user accounts — combining passwordless email signup and wallet authentication (self-custodial or provisioned)",
-                "Created a job server: a standalone Express server that leverages BullMQ (redis-backed, NodeJS-based queue lib) and tRPC to kickoff, process and schedule long-running tasks.",
-                "Implemented creator subscription notifications end-to-end: from website builder subscribe button to scheduling email sends when a creator drops an NFT, releases an ERC-20 Airdrop, etc."
+                "Pioneered user wallet account abstraction — combining passwordless email signup and self-custodial wallet authentication — to onboard over 1000 new creators and fans to the platform",
+                "Led engineering intiative to create new job infrastructure to support processing and scheduling long-running tasks using Express, tRPC, BullMQ, and Redis",
+                "Implemented platform-wide creator subscription notifications end to end — from the customizable subscribe button embedded on every creator's site to the hundreds of emails sent to fans when an NFT drops, new content is published, etc."
             ]
         },
         {
@@ -67,9 +66,9 @@
             "startDate": "2019-06-30",
             "endDate": "2021-11-08",
             "highlights": [
-                "Led a squad of engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
+                "Led a small squad of 3 engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
                 "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner",
-                "Automated partner program terms and conditions - collaborating cross-functionally with product, engineering, design, legal and marketing",
+                "Automated the partner program terms and conditions flow - collaborating with multiple stakeholders across product, engineering, design, legal and marketing",
                 "Provided on-call support and incident management for our cloud-enabled Go-gRPC service"
             ]
         },
@@ -110,12 +109,6 @@
     ],
     "awards": [
         {
-            "title": "KERNEL Block 4 Fellowship",
-            "date": "2021-09-01",
-            "awarder": "Gitcoin",
-            "summary": "KERNEL is an 8-week, invite-only program for top tech talent looking to build relationships, products, and companies in blockchain and Web 3."
-        },
-        {
             "title": "Palantir Future Scholarship",
             "date": "2018-08-31",
             "awarder": "Palantir Technologies",
@@ -129,8 +122,25 @@
         }
     ],
     "certificates": [],
-    "publications": [],
+    "publications": [
+        {
+        "name": "Money Flows",
+          "publisher": "Second Generation",
+          "releaseDate": "2021-03-16",
+          "url": "https://www.secondgen.co/p/money-flows",
+          "summary": "cool description of what I wrote"
+        }
+    ],
     "skills": [
+        {
+            "name": "Product Engineering",
+            "level": "Master",
+            "keywords": [
+                "Effective Communication",
+                "Technical Research & Writing",
+                "Product Ownership"
+            ]
+        },
         {
             "name": "Web Development",
             "level": "Advanced",
@@ -142,7 +152,7 @@
             ]
         },
         {
-            "name": "Backend Services",
+            "name": "Backend Development",
             "level": "Advanced",
             "keywords": [
                 "Go",
@@ -167,17 +177,14 @@
     "references": [],
     "projects": [
         {
-            "name": "Second Generation Group, LLC",
+            "name": "Second Generation",
             "keywords": [
                 "Founder",
                 "Writer"
             ],
             "url": "https://www.secondgen.co/",
             "startDate": "2020-09-30",
-            "summary": "My personal content outlet that aims to capture my evolving thoughts on wealth for first-generation college graduates",
-            "highlights": [
-                "Visualized how money 'flows' through our financial system: https://www.secondgen.co/p/money-flows"
-            ]
+            "summary": "A newsletter that aims to capture my evolving thoughts on wealth for first-generation college graduates"
         },
         {
             "name": "Rocket Pool",

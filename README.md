@@ -21,9 +21,9 @@ npm install resume-cli
 npm install --save-dev jsonresume-theme-stackoverflow
 
 
-# export resume.json (full) html
-npx resume export --theme=stackoverflow resume.html
-npx resume export --resume=short.resume.json --theme=stackoverflow short-resume.html
+# export resume.json (full) html (using temp.html so that we don't accidentally override manual changes to resume.html)
+npx resume export --theme=stackoverflow temp.html
+npx resume export --resume=short.resume.json --theme=stackoverflow short-temp.html
 
 # export short.resume.json as pdf (since I'll usually want it on a single page if it's a pdf)
 xvfb-run wkhtmltopdf ./short-resume.html short-resume.pdf # Ubuntu (WSL)

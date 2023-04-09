@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Jeffrey Fabian</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="custom-styles.css" />
   <style>
   /********************************************
 * 	reset from
@@ -613,7 +614,7 @@ ul.courses li:hover {
     }
     #resume {
         width: 820px;
-        margin: 2rem auto;      
+        margin: 2rem auto;
     }
     .section>section>header .space-left {
         opacity: 1;
@@ -771,37 +772,37 @@ ul.courses li:hover {
 }
 
   </style>
-  
+
   </head>
   <body>
-  
+
   <div id="resume">
     	<header id="header" class="clear">
     		<div>
-    			<h1 class="name">Jeffrey Fabian</h1>
+    			<h1 class="name" id="full-name">Jeffrey Fabian</h1>
     			<h2 class="label">Software Engineer</h2>
     		</div>
-    		
+
     		<span class="location">
-    			<span class="address">New York,</span> 
-    			<span class="countryCode">US</span> 
+    			<span class="address">New York,</span>
+    			<span class="countryCode">US</span>
     		</span>
-    		
-    
+
+
     		<div id="contact">
     			<div class="email">
     				<span class="fa fa-envelope-o"></span>
     				<a href="mailto:jeffrey.fabian61@gmail.com">jeffrey.fabian61@gmail.com</a>
     			</div>
     		</div>
-    
+
     		<div id="profiles">
     			<div class="item">
     				<div class="username">
     					<span class="fa fa-twitter twitter social"></span>
     					<span class="url">
     						<a target="_blank" href="https://twitter.com/second_jeff">second_jeff</a>
-    					</span> 
+    					</span>
     				</div>
     			</div>
     			<div class="item">
@@ -809,7 +810,7 @@ ul.courses li:hover {
     					<span class="fa fa-github github social"></span>
     					<span class="url">
     						<a target="_blank" href="https://github.com/jf2978">jf2978</a>
-    					</span> 
+    					</span>
     				</div>
     			</div>
     			<div class="item">
@@ -817,18 +818,17 @@ ul.courses li:hover {
     					<span class="fa fa-linkedin linkedin social"></span>
     					<span class="url">
     						<a target="_blank" href="https://www.linkedin.com/in/jf2978/">jf2978</a>
-    					</span> 
+    					</span>
     				</div>
     			</div>
     		</div>
     	</header>
-    
+
     	<section class="section main-summary">
     		<section>
-    			<div><p>I'm a fullstack software engineer, with a slight emphasis on backend development and API design. I'm currently focused on building in web3, but occasionally write about personal finance for first-generation college students and maintain an Ethereum validator at home.</p></div>
+    			<div><p> I'm a fullstack software engineer with 4+ years of experience currently working in web3. When I'm not building, I write about wealth for first-generate college graduates, run an Ethereum validator at home and try as many new coffee shops as I can find.</p></div>
     		</section>
     	</section>
-    
     <section class="section margin1">
     	<header>
     		<h2 class='section-title'>Skills</h2>
@@ -836,9 +836,24 @@ ul.courses li:hover {
     	<section id="skills">
     		<div class="item">
     			<h3 class="name">
+    				Product Engineering
+    			</h3>
+
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Effective Communication</li>
+    				<li>Technical Research &amp; Writing</li>
+    				<li>Product Ownership</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
     				Web Development
     			</h3>
-    			 
+
     			<div class="level advanced">
     				<em>Advanced</em>
     				<div class="bar"></div>
@@ -852,9 +867,9 @@ ul.courses li:hover {
     		</div>
     		<div class="item">
     			<h3 class="name">
-    				Backend Services
+    				Backend Development
     			</h3>
-    			 
+
     			<div class="level advanced">
     				<em>Advanced</em>
     				<div class="bar"></div>
@@ -871,44 +886,73 @@ ul.courses li:hover {
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(5)</span></h2>
+        <h2 class='section-title'>Education</h2>
       </header>
-    
+      <section id="education">
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="area">
+                Computer Science and Psychology
+              </div>
+              <div class="institution">
+                Columbia University
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2015
+              </span>
+              <span class="endDate">
+              - 2019
+              </span>
+            </div>
+          </header>
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience</h2>
+      </header>
+
       <section id="work">
         <section class="work-item">
-    
-    
+
+
     			<header>
     				<div class="position">Founding Engineer</div>
     				<div class="company">Bonfire</div>
     				<div class="date">
-    				  <span class="startDate">March 2022</span> 
+    				  <span class="startDate">March 2022</span>
     					<span class="endDate">- Current</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="https://bonfire.xyz">https://bonfire.xyz</a>
         	</span>      	<div class="item" id="work-item">
             <ul class="highlights">
-                <li><p>Introduced creator fan onboarding and 'global' user accounts — combining passwordless email signup and wallet authentication (self-custodial or provisioned)</p></li>
-                <li><p>Created a job server: a standalone Express server that leverages BullMQ (redis-backed, NodeJS-based queue lib) and tRPC to kickoff, process and schedule long-running tasks.</p></li>
-                <li><p>Implemented creator subscription notifications end-to-end: from website builder subscribe button to scheduling email sends when a creator drops an NFT, releases an ERC-20 Airdrop, etc.</p></li>
+                <li><p>Pioneered user wallet account abstraction — combining passwordless email signup and self-custodial wallet authentication — to onboard over 1000 new creators and fans to the platform</p></li>
+                <li><p>Led engineering intiative to create new job infrastructure to support processing and scheduling long-running tasks using Express, tRPC, BullMQ, and Redis</p></li>
+                <li><p>Implemented platform-wide creator subscription notifications end to end — from the customizable subscribe button embedded on every creator's site to the hundreds of emails sent to fans when an NFT drops, new content is published, etc.</p></li>
             </ul>
         	</div>
         </section>
         <section class="work-item">
-    
-    
+
+
     			<header>
     				<div class="position">Senior Software Engineer</div>
     				<div class="company">Intuit</div>
     				<div class="date">
-    				  <span class="startDate">November 2021</span> 
-    					<span class="endDate">- February 2022</span> 
+    				  <span class="startDate">November 2021</span>
+    					<span class="endDate">- February 2022</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="https://intuit.com">https://intuit.com</a>
         	</span>      	<div class="item" id="work-item">
@@ -918,40 +962,40 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
-    
+
+
     			<header>
     				<div class="position">Software Engineer</div>
     				<div class="company">Mailchimp</div>
     				<div class="date">
-    				  <span class="startDate">June 2019</span> 
-    					<span class="endDate">- November 2021</span> 
+    				  <span class="startDate">June 2019</span>
+    					<span class="endDate">- November 2021</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="https://mailchimp.com/andco/">https://mailchimp.com/andco/</a>
         	</span>      	<div class="item" id="work-item">
             <ul class="highlights">
-                <li><p>Led a squad of engineers to build a partner referral system that has generated over $250,000 in payouts since its inception</p></li>
-                <li><p>Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner</p></li>
-                <li><p>Automated partner program terms and conditions - collaborating cross-functionally with product, engineering, design, legal and marketing</p></li>
-                <li><p>Provided on-call support and incident management for our cloud-enabled Go-gRPC service</p></li>
+                <li><p>Led a squad of 3 engineers to build a partner referral system that has generated over $250,000 in payouts since its inception</p></li>
+                <li><p>Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub, Dataflow and Cloud Spanner</p></li>
+                <li><p>Automated the partner program terms and conditions flow - collaborating with multiple stakeholders across product, engineering, design, legal and marketing</p></li>
+                <li><p>Provided on-call support and incident management for our cloud-enabled gRPC service</p></li>
             </ul>
         	</div>
         </section>
         <section class="work-item">
-    
-    
+
+
     			<header>
-    				<div class="position">Software Engineering Intern (CloudOS)</div>
+    				<div class="position">Software Engineering Intern</div>
     				<div class="company">Autodesk</div>
     				<div class="date">
-    				  <span class="startDate">June 2018</span> 
-    					<span class="endDate">- September 2018</span> 
+    				  <span class="startDate">June 2018</span>
+    					<span class="endDate">- September 2018</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="https://www.autodesk.com/">https://www.autodesk.com/</a>
         	</span>      	<div class="item" id="work-item">
@@ -961,17 +1005,17 @@ ul.courses li:hover {
         	</div>
         </section>
         <section class="work-item">
-    
-    
+
+
     			<header>
     				<div class="position">Software Engineering Intern</div>
     				<div class="company">Convessa</div>
     				<div class="date">
-    				  <span class="startDate">June 2017</span> 
-    					<span class="endDate">- August 2017</span> 
+    				  <span class="startDate">June 2017</span>
+    					<span class="endDate">- August 2017</span>
     				</div>
     			</header>
-    			
+
         	<span class="website">
         		<a target="_blank" href="https://www.crunchbase.com/organization/convessa">https://www.crunchbase.com/organization/convessa</a>
         	</span>      	<div class="item" id="work-item">
@@ -989,11 +1033,11 @@ ul.courses li:hover {
       </header>
       <section id="projects">
         <section class="project-item">
-            <input id="project-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <input id="project-item-0" type="checkbox" class="toggle-item" />
             <label for="project-item-0"></label>
-    
+
           <header>
-            <div class="position">Second Generation Group, LLC</div>
+            <div class="position">Second Generation</div>
             <div class="date">
               <span class="startDate">September 2020</span>
               <span class="endDate">- Current</span>
@@ -1008,17 +1052,14 @@ ul.courses li:hover {
           </ul>
           <div class="item">
             <div class="summary">
-              <p><p>My personal content outlet that aims to capture my evolving thoughts on wealth for first-generation college graduates</p></p>
+              <p><p>A newsletter that aims to capture my evolving thoughts on wealth for first-generation college graduates</p></p>
             </div>
-            <ul class="highlights">
-                <li><p>Visualized how money 'flows' through our financial system: https://www.secondgen.co/p/money-flows</p></li>
-            </ul>
           </div>
         </section>
         <section class="project-item">
             <input id="project-item-1" type="checkbox" class="toggle-item" />
             <label for="project-item-1"></label>
-    
+
           <header>
             <div class="position">Rocket Pool</div>
             <div class="date">
@@ -1042,7 +1083,7 @@ ul.courses li:hover {
         <section class="project-item">
             <input id="project-item-2" type="checkbox" class="toggle-item" />
             <label for="project-item-2"></label>
-    
+
           <header>
             <div class="position">APM Map</div>
             <div class="date">
@@ -1070,14 +1111,125 @@ ul.courses li:hover {
     </section>
     <section class="section">
       <header>
+        <h2 class='section-title'>Awards</h2>
+      </header>
+      <section id="awards">
+        <section class="award-item">
+          <input id="award-item-0" type="checkbox" class="toggle-item" checked="checked" />
+          <label for="award-item-0"></label>
+
+        <header>
+          <div class="header-left">
+            <div class="title">
+              KERNEL Fellowship (Block 4)
+            </div>
+            <div class="awarder">
+              Gitcoin
+            </div>
+          </div>
+          <div class="date">
+            2021
+          </div>
+        </header>
+
+        <div class="item">
+          <div class="summary">
+            <p><p>KERNEL is an 8-week, invite-only program for top tech talent looking to build relationships, products, and companies in blockchain and Web 3.</p></p>
+          </div>
+        </div>
+      </section>
+        <section class="award-item">
+            <input id="award-item-1" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="award-item-1"></label>
+
+          <header>
+            <div class="header-left">
+              <div class="title">
+                Palantir Future Scholarship
+              </div>
+              <div class="awarder">
+                Palantir Technologies
+              </div>
+            </div>
+            <div class="date">
+              2018
+            </div>
+          </header>
+
+          <div class="item">
+            <div class="summary">
+              <p><p>The Palantir Future Scholarship celebrates and supports students from underrepresented racial/ethnic groups in STEM who are beginning careers in technology. I was one of 10 scholarship recipients and was invited to visit Palantir's Washington, D.C. office for a full-day, all-expenses paid, developmental workshop.</p></p>
+            </div>
+          </div>
+        </section>
+        <section class="award-item">
+            <input id="award-item-2" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="award-item-2"></label>
+
+          <header>
+            <div class="header-left">
+              <div class="title">
+                QuestBridge National College Match
+              </div>
+              <div class="awarder">
+                QuestBridge
+              </div>
+            </div>
+            <div class="date">
+              2014
+            </div>
+          </header>
+
+          <div class="item">
+            <div class="summary">
+              <p><p>The QuestBridge National College Match is a college and scholarship that helps outstanding low-income high school seniors gain admission and full four-year scholarships to the nation's most selective colleges. I was one of 27 students matched to attend Columbia University.</p></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Publications</h2>
+      </header>
+      <section id="publications">
+        <section class="publication-item">
+            <input id="publication-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="publication-item-0"></label>
+
+          <header>
+            <div class="header-left">
+              <span class="name" >
+                <a href="https://www.secondgen.co/p/money-flows" target="_blank"> Money Flows </a>
+              </span>
+              <span class="publisher">
+              in  Second Generation
+              </span>
+            </div>
+            <span class="date">
+            16 March 2021
+            </span>
+          </header>
+
+          <div class="item">
+            <div class="summary">
+              <p><p class="quote">... [Every] financial decision sets off a chain reaction of socioeconomic activity where money inevitably leaves our immediate control and becomes subject to the invisible forces of our existing financial infrastructure.
+                Wealth is about having stake in this financial infrastructure — whether that’s in the form of financially supporting what already exists, creating new value channels that others can benefit from or doing the work that’s necessary to make the system better as a whole.</p></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
         <h2 class='section-title'>Volunteer</h2>
       </header>
       <section id="volunteer">
         <section class="volunteer-item">
-    
+
             <input id="volunteer-item-0" type="checkbox" class="toggle-item" checked="checked" />
             <label for="volunteer-item-0"></label>
-    
+
           <header>
             <div class="header-left">
               <div class="position">
@@ -1103,121 +1255,6 @@ ul.courses li:hover {
             <ul class="highlights">
               <li><p>Taught HTML/CSS/JS to high school students at Wadleigh Secondary School For The Performing & Visual Arts</p></li>
             </ul>
-          </div>
-        </section>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
-      </header>
-    
-      <section id="education">
-        <section class="education-item">
-          <header>
-            <div class="header-left">
-              <div class="studyType">
-                Bachelors
-              </div>
-              <div class="area">
-                Computer Science and Psychology
-              </div>
-              <div class="institution">
-                Columbia University in the City of New York
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              2015
-              </span>
-              <span class="endDate">
-              - 2019
-              </span>
-            </div>
-          </header>
-    
-    
-    
-          <div class="item">
-          </div>
-        </section>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Awards</h2>
-      </header>
-      <section id="awards">
-        <section class="award-item">
-            <input id="award-item-0" type="checkbox" class="toggle-item" checked="checked" />
-            <label for="award-item-0"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="title">
-                KERNEL Block 4 Fellowship
-              </div>
-              <div class="awarder">
-                Gitcoin
-              </div>
-            </div>
-            <div class="date">
-              2021
-            </div>
-          </header>
-          
-          <div class="item">
-            <div class="summary">
-              <p><p>KERNEL is an 8-week, invite-only program for top tech talent looking to build relationships, products, and companies in blockchain and Web 3.</p></p>
-            </div>
-          </div>
-        </section>
-        <section class="award-item">
-            <input id="award-item-1" type="checkbox" class="toggle-item" />
-            <label for="award-item-1"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="title">
-                Palantir Future Scholarship
-              </div>
-              <div class="awarder">
-                Palantir Technologies
-              </div>
-            </div>
-            <div class="date">
-              2018
-            </div>
-          </header>
-          
-          <div class="item">
-            <div class="summary">
-              <p><p>The Palantir Future Scholarship celebrates and supports students from underrepresented racial/ethnic groups in STEM who are beginning careers in technology. I was one of 10 scholarship recipients and was invited to visit Palantir's Washington, D.C. office for a full-day, all-expenses paid, developmental workshop.</p></p>
-            </div>
-          </div>
-        </section>
-        <section class="award-item">
-            <input id="award-item-2" type="checkbox" class="toggle-item" />
-            <label for="award-item-2"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="title">
-                QuestBridge National College Match
-              </div>
-              <div class="awarder">
-                QuestBridge
-              </div>
-            </div>
-            <div class="date">
-              2014
-            </div>
-          </header>
-          
-          <div class="item">
-            <div class="summary">
-              <p><p>The QuestBridge National College Match is a college and scholarship that helps outstanding low-income high school seniors gain admission and full four-year scholarships to the nation's most selective colleges. I was one of 27 students matched to attend Columbia University.</p></p>
-            </div>
           </div>
         </section>
       </section>
