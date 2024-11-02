@@ -3,13 +3,12 @@
     "basics": {
         "name": "Jeffrey Fabian",
         "label": "Software Engineer",
-        "image": "https://drive.google.com/file/d/1Y6JK-b9DcIFPJH8TwZOv2YSu92wSFc64/view?usp=sharing",
         "email": "jeffrey.fabian61@gmail.com",
         "url": "https://github.com/jf2978",
-        "summary": "I'm a full-stack software engineer, with a focus on backend development, and a side project enthusiast. Alongside my professional experience, I've built a web app for aspiring product managers, write a personal finance newsletter for first-generation college students, and run an Ethereum validator.",
+        "summary": "Fullstack software engineer with 4+ years of experience currently building in web3. When I'm not coding, I write about wealth for first-generation college graduates and run an Ethereum validator at home.",
         "location": {
             "countryCode": "US",
-            "address": "United States"
+            "address": "New York"
         },
         "profiles": [
             {
@@ -31,47 +30,49 @@
     },
     "education": [
         {
-            "institution": "Columbia University in the City of New York",
+            "institution": "Columbia University",
             "url": "https://columbia.edu",
             "area": "Computer Science and Psychology",
-            "studyType": "Bachelors",
             "startDate": "2015-12-31",
-            "endDate": "2019-12-31"
+            "endDate": "2019-05-31"
         }
     ],
     "work": [
+        {
+            "company": "Intuit",
+            "website": "https://quickbooks.intuit.com/",
+            "position": "Senior Software Engineer",
+            "startDate": "2023-08-30",
+            "highlights": [
+                "Building an intelligent CRM empowering small businesses make better financial decisions"
+            ]
+        },
         {
             "company": "Bonfire",
             "website": "https://bonfire.xyz",
             "position": "Founding Engineer",
             "startDate": "2022-03-13",
+            "endDate": "2023-08-15",
             "highlights": [
-                "Introduced creator fan onboarding and 'global' user accounts — combining passwordless email signup and wallet authentication (self-custodial or provisioned)",
-                "Created a job server: a standalone Express server that leverages BullMQ (redis-backed, NodeJS-based queue lib) and tRPC to kickoff, process and schedule long-running tasks.",
-                "Implemented creator subscription notifications end-to-end: from website builder subscribe button to scheduling email sends when a creator drops an NFT, releases an ERC-20 Airdrop, etc."
+                "Introduced user wallet account abstraction — combining passwordless email signup and self-custodial wallet authentication — to onboard over 1000 new creators and fans to the platform",
+                "Implemented platform-wide creator subscription notifications end to end — from the customizable subscribe button embedded on every creator's site to the hundreds of emails sent to fans when an NFT drops, new content is published, etc."
             ]
         },
         {
             "company": "Mailchimp",
-            "website": "https://mailchimp.com/andco/",
+            "website": "https://mailchimp.com/",
             "position": "Software Engineer",
             "startDate": "2019-06-30",
-            "endDate": "2021-02-04",
+            "endDate": "2022-02-04",
             "highlights": [
-                "Led a squad of engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
+                "Led a small squad of 3 engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
                 "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner",
-                "Automated partner program terms and conditions - collaborating cross-functionally with product, engineering, design, legal and marketing",
-                "Served in an on-call rotation to provide after-hours support and incident management for our cloud-enabled Go-gRPC service"
+                "Automated the partner program terms and conditions flow - collaborating with multiple stakeholders across product, engineering, design, legal and marketing"
             ]
         }
     ],
+    "volunteer": [],
     "awards": [
-        {
-            "title": "KERNEL Block 4 Fellowship",
-            "date": "2021-09-01",
-            "awarder": "Gitcoin",
-            "summary": "KERNEL is an 8-week, invite-only program for top tech talent looking to build relationships, products, and companies in blockchain and Web 3."
-        },
         {
             "title": "Palantir Future Scholarship",
             "date": "2018-08-31",
@@ -86,27 +87,32 @@
         }
     ],
     "certificates": [],
-    "publications": [],
     "skills": [
         {
-            "name": "Backend Services",
+            "name": "Product Engineering",
             "level": "Master",
             "keywords": [
-                "Go",
-                "Google Cloud Platform",
-                "gRPC",
-                "protobuf"
+                "Effective Communication",
+                "Technical Research & Writing",
+                "Product Ownership"
             ]
         },
         {
             "name": "Web Development",
             "level": "Advanced",
             "keywords": [
+                "TypeScript",
+                "React"
+            ]
+        },
+        {
+            "name": "Backend Development",
+            "level": "Advanced",
+            "keywords": [
+                "Go",
                 "PHP",
-                "JavaScript",
-                "React",
-                "Gatsby",
-                "GraphQL"
+                "Kotlin",
+                "Spring Boot"
             ]
         }
     ],
@@ -124,27 +130,33 @@
     "references": [],
     "projects": [
         {
-            "name": "Second Generation Group, LLC",
+            "name": "Second Generation",
             "keywords": [
                 "Founder",
                 "Writer"
             ],
-            "url": "https://www.secondgen.co/",
+            "url": "https://secondgen.substack.com/",
             "startDate": "2020-09-30",
-            "summary": "My personal content outlet that aims to capture my evolving thoughts on wealth for first-generation college graduates",
+            "summary": "A newsletter that aims to capture my evolving thoughts on wealth for first-generation college graduates",
             "highlights": [
-                "Visualized how money 'flows' through our financial system: https://www.secondgen.co/p/money-flows"
+                "Launched a newsletter to capture my evolving thoughts on wealth for first-generation college graduates",
+                "Building a members-only, crypto staking portfolio manager"
             ]
         },
         {
-            "name": "Rocket Pool",
+            "name": "APM Map",
             "keywords": [
-                "Ethereum",
-                "Node Operator"
+                "Co-Founder",
+                "CTO"
             ],
-            "url": "https://docs.rocketpool.net/guides/node/responsibilities.html",
-            "startDate": "2021-12-01",
-            "summary": "Rocket Pool is a decentralized Ethereum staking protocol by which I participate in as a Node Operator — responsible for attesting and proposing blocks on the Beacon Chain."
+            "url": "https://apmmap.co/",
+            "startDate": "2020-06-30",
+            "endDate": "2023-05-15",
+            "summary": "A resource directory for students and early-career professionals looking to break into product management.",
+            "highlights": [
+                "Launched on Product Hunt: https://www.producthunt.com/posts/apm-map",
+                "Acquired by Exponent: https://www.tryexponent.com/blog/apm-map-by-exponent"
+            ]
         }
     ],
     "meta": {

@@ -5,7 +5,7 @@
         "label": "Software Engineer",
         "email": "jeffrey.fabian61@gmail.com",
         "url": "https://github.com/jf2978",
-        "summary": "Fullstack software engineer with 4+ years of experience currently building in web3. When I'm not coding, I write about wealth for first-generation college graduates and run an Ethereum validator at home.",
+        "summary": "Fullstack software engineer with 5+ years of experience building products. I also frequently write about wealth, run an Ethereum validator",
         "location": {
             "countryCode": "US",
             "address": "New York"
@@ -39,32 +39,32 @@
     ],
     "work": [
         {
+            "company": "Intuit",
+            "website": "https://quickbooks.intuit.com/",
+            "position": "Senior Software Engineer",
+            "startDate": "2023-08-30",
+            "highlights": [
+                "Building an intelligent CRM empowering small businesses make better financial decisions"
+            ]
+        },
+        {
             "company": "Bonfire",
             "website": "https://bonfire.xyz",
             "position": "Founding Engineer",
             "startDate": "2022-03-13",
+            "endDate": "2023-08-15",
             "highlights": [
-                "Pioneered user wallet account abstraction — combining passwordless email signup and self-custodial wallet authentication — to onboard over 1000 new creators and fans to the platform",
+                "Introduced user wallet account abstraction — combining passwordless email signup and self-custodial wallet authentication — to onboard over 1000 new creators and fans to the platform",
                 "Led engineering intiative to create new job infrastructure to support processing and scheduling long-running tasks using Express, tRPC, BullMQ, and Redis",
                 "Implemented platform-wide creator subscription notifications end to end — from the customizable subscribe button embedded on every creator's site to the hundreds of emails sent to fans when an NFT drops, new content is published, etc."
             ]
         },
         {
-            "company": "Intuit",
-            "website": "https://intuit.com",
-            "position": "Senior Software Engineer",
-            "startDate": "2021-11-08",
-            "endDate": "2022-02-04",
-            "highlights": [
-                "Intuit's Small Business & Self-Employed Group acquired Mailchimp"
-            ]
-        },
-        {
             "company": "Mailchimp",
-            "website": "https://mailchimp.com/andco/",
+            "website": "https://mailchimp.com/",
             "position": "Software Engineer",
             "startDate": "2019-06-30",
-            "endDate": "2021-11-08",
+            "endDate": "2022-02-04",
             "highlights": [
                 "Led a small squad of 3 engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
                 "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner",
@@ -79,7 +79,7 @@
             "startDate": "2018-06-30",
             "endDate": "2018-09-30",
             "highlights": [
-                "Implemented a series of Terraform modules to enable 25+ engineering teams to seamlessly deploy their services to AWS Fargate"
+                "Implemented a series of Terraform modules to enable 25+ engineering teams to seamlessly deploy their services to AWS Fargate (Containerized Serverless Compute)"
             ]
         },
         {
@@ -89,8 +89,7 @@
             "startDate": "2017-06-30",
             "endDate": "2017-08-31",
             "highlights": [
-                "Cut payment processing costs by 25% for the Mastermind Assistant Alexa skill by implementing an Amazon Pay Servlet",
-                "Implemented a cron job that creates and updates 1000+ of email marketing contacts deployed"
+                "Cut payment processing costs by 25% for the Mastermind Assistant Alexa skill by implementing an Amazon Pay Servlet"
             ]
         }
     ],
@@ -157,9 +156,8 @@
             "keywords": [
                 "Go",
                 "PHP",
-                "GCP / AWS",
-                "gRPC",
-                "protobuf"
+                "Kotlin",
+                "Spring Boot"
             ]
         }
     ],
@@ -182,9 +180,13 @@
                 "Founder",
                 "Writer"
             ],
-            "url": "https://www.secondgen.co/",
+            "url": "https://secondgen.substack.com/",
             "startDate": "2020-09-30",
-            "summary": "A newsletter that aims to capture my evolving thoughts on wealth for first-generation college graduates"
+            "summary": "A newsletter that aims to capture my evolving thoughts on wealth for first-generation college graduates",
+            "highlights": [
+                "Launched a newsletter to capture my evolving thoughts on wealth for first-generation college graduates",
+                "Building a members-only, crypto staking portfolio manager"
+            ]
         },
         {
             "name": "Rocket Pool",
@@ -194,7 +196,7 @@
             ],
             "url": "https://docs.rocketpool.net/guides/node/responsibilities.html",
             "startDate": "2021-12-01",
-            "summary": "Rocket Pool is a decentralized Ethereum staking protocol by which I participate in as a Node Operator — responsible for attesting and proposing blocks on the Beacon Chain."
+            "summary": "Rocket Pool is a decentralized Ethereum staking protocol. My role as a Node Operator involves securely managing physical infrastructure to ensure 24/7 uptime and efficient processing of Ethereum transactions."
         },
         {
             "name": "APM Map",
@@ -204,15 +206,16 @@
             ],
             "url": "https://apmmap.co/",
             "startDate": "2020-06-30",
-            "endDate": "2020-12-31",
+            "endDate": "2023-05-15",
             "summary": "A resource directory for students and early-career professionals looking to break into product management.",
             "highlights": [
-                "Launched on Product Hunt: https://www.producthunt.com/posts/apm-map"
+                "Launched on Product Hunt: https://www.producthunt.com/posts/apm-map",
+                "Acquired by Exponent: https://www.tryexponent.com/blog/apm-map-by-exponent"
             ]
         }
     ],
     "meta": {
-        "version": "v1.0.0",
+        "version": "v3.0.0",
         "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
         "theme": "stackoverflow",
         "lastModified": "2021-11-09T00:00:00"
