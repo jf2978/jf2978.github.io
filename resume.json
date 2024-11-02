@@ -5,10 +5,11 @@
         "label": "Software Engineer",
         "email": "jeffrey.fabian61@gmail.com",
         "url": "https://github.com/jf2978",
-        "summary": "Fullstack software engineer with 5+ years of experience building products. I also frequently write about wealth, run an Ethereum validator",
+        "summary": "Fullstack software engineer with 5+ years of experience. While my professional focus is building great software products, I also write about wealth, run an Ethereum validator, make stuff out of wood and snowboard.",
         "location": {
             "countryCode": "US",
-            "address": "New York"
+            "city": "Brooklyn",
+            "region": "NY"
         },
         "profiles": [
             {
@@ -44,7 +45,7 @@
             "position": "Senior Software Engineer",
             "startDate": "2023-08-30",
             "highlights": [
-                "Building an intelligent CRM empowering small businesses make better financial decisions"
+                "Building an intelligent CRM empowering over 250K small businesses make better financial decisions"
             ]
         },
         {
@@ -67,9 +68,7 @@
             "endDate": "2022-02-04",
             "highlights": [
                 "Led a small squad of 3 engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
-                "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner",
-                "Automated the partner program terms and conditions flow - collaborating with multiple stakeholders across product, engineering, design, legal and marketing",
-                "Provided on-call support and incident management for our cloud-enabled Go-gRPC service"
+                "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner"
             ]
         },
         {
@@ -126,8 +125,8 @@
         "name": "Money Flows",
           "publisher": "Second Generation",
           "releaseDate": "2021-03-16",
-          "url": "https://www.secondgen.co/p/money-flows",
-          "summary": "cool description of what I wrote"
+          "url": "https://secondgen.substack.com/p/money-flows",
+          "summary": "...[Every] financial decision sets off a chain reaction of socioeconomic activity where money inevitably leaves our immediate control and becomes subject to the invisible forces of our existing financial infrastructure. Wealth is about having stake in this financial infrastructure — whether that’s in the form of financially supporting what already exists, creating new value channels that others can benefit from or doing the work that’s necessary to make the system better as a whole."
         }
     ],
     "skills": [
