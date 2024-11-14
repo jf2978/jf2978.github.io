@@ -5,10 +5,11 @@
         "label": "Software Engineer",
         "email": "jeffrey.fabian61@gmail.com",
         "url": "https://github.com/jf2978",
-        "summary": "Fullstack software engineer with 4+ years of experience currently building in web3. When I'm not coding, I write about wealth for first-generation college graduates and run an Ethereum validator at home.",
+        "summary": "Fullstack software engineer with 5+ years of experience. While my professional focus is building great software products, I also write about wealth, run an Ethereum validator, make stuff out of wood and snowboard.",
         "location": {
             "countryCode": "US",
-            "address": "New York"
+            "city": "Brooklyn",
+            "region": "NY"
         },
         "profiles": [
             {
@@ -44,7 +45,7 @@
             "position": "Senior Software Engineer",
             "startDate": "2023-08-30",
             "highlights": [
-                "Building an intelligent CRM empowering small businesses make better financial decisions"
+                "Building an intelligent CRM empowering over 250K small businesses make better financial decisions"
             ]
         },
         {
@@ -66,8 +67,7 @@
             "endDate": "2022-02-04",
             "highlights": [
                 "Led a small squad of 3 engineers to build a partner referral system that has generated over $250,000 in payouts since its inception",
-                "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner",
-                "Automated the partner program terms and conditions flow - collaborating with multiple stakeholders across product, engineering, design, legal and marketing"
+                "Implemented the data layer for a learning management system (LMS) to asynchronously ingest and update partner data using Google Pub/Sub and Cloud Spanner"
             ]
         }
     ],
@@ -87,6 +87,15 @@
         }
     ],
     "certificates": [],
+    "publications": [
+        {
+        "name": "Money Flows",
+          "publisher": "Second Generation",
+          "releaseDate": "2021-03-16",
+          "url": "https://secondgen.substack.com/p/money-flows",
+          "summary": "...[Every] financial decision sets off a chain reaction of socioeconomic activity where money inevitably leaves our immediate control and becomes subject to the invisible forces of our existing financial infrastructure. Wealth is about having stake in this financial infrastructure — whether that’s in the form of financially supporting what already exists, creating new value channels that others can benefit from or doing the work that’s necessary to make the system better as a whole."
+        }
+    ],
     "skills": [
         {
             "name": "Product Engineering",
@@ -102,7 +111,9 @@
             "level": "Advanced",
             "keywords": [
                 "TypeScript",
-                "React"
+                "React",
+                "GraphQL",
+                "tRPC"
             ]
         },
         {
@@ -160,7 +171,7 @@
         }
     ],
     "meta": {
-        "version": "v1.0.0",
+        "version": "v3.0.0",
         "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
         "theme": "stackoverflow",
         "lastModified": "2021-11-09T00:00:00"
