@@ -27,6 +27,6 @@ npx resume export --resume=short.resume.json --theme=stackoverflow short-temp.ht
 
 # export short.resume.json as pdf (since I'll usually want it on a single page if it's a pdf)
 xvfb-run wkhtmltopdf ./short-resume.html short-resume.pdf # Ubuntu (WSL)
-wkhtmltopdf ./short-resume.html short-resume.pdf # MacOS
+wkhtmltopdf --enable-local-file-access ./short-resume.html short-resume.pdf # MacOS
 
 ```
